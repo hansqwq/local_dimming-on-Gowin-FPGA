@@ -1,0 +1,246 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk25M" trig_type="0" storage_depth="4096" window_num="1" capture_amount="4096" implementation="0" trigger_pos="256" module_name="local_dimming_top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">rden</Signal>
+            <Signal capture_enable="true">fifo_inst/RdEn</Signal>
+            <Bus capture_enable="true" name="u1/cnt1[30:0]">
+                <Signal>u1/cnt1[30]</Signal>
+                <Signal>u1/cnt1[29]</Signal>
+                <Signal>u1/cnt1[28]</Signal>
+                <Signal>u1/cnt1[27]</Signal>
+                <Signal>u1/cnt1[26]</Signal>
+                <Signal>u1/cnt1[25]</Signal>
+                <Signal>u1/cnt1[24]</Signal>
+                <Signal>u1/cnt1[23]</Signal>
+                <Signal>u1/cnt1[22]</Signal>
+                <Signal>u1/cnt1[21]</Signal>
+                <Signal>u1/cnt1[20]</Signal>
+                <Signal>u1/cnt1[19]</Signal>
+                <Signal>u1/cnt1[18]</Signal>
+                <Signal>u1/cnt1[17]</Signal>
+                <Signal>u1/cnt1[16]</Signal>
+                <Signal>u1/cnt1[15]</Signal>
+                <Signal>u1/cnt1[14]</Signal>
+                <Signal>u1/cnt1[13]</Signal>
+                <Signal>u1/cnt1[12]</Signal>
+                <Signal>u1/cnt1[11]</Signal>
+                <Signal>u1/cnt1[10]</Signal>
+                <Signal>u1/cnt1[9]</Signal>
+                <Signal>u1/cnt1[8]</Signal>
+                <Signal>u1/cnt1[7]</Signal>
+                <Signal>u1/cnt1[6]</Signal>
+                <Signal>u1/cnt1[5]</Signal>
+                <Signal>u1/cnt1[4]</Signal>
+                <Signal>u1/cnt1[3]</Signal>
+                <Signal>u1/cnt1[2]</Signal>
+                <Signal>u1/cnt1[1]</Signal>
+                <Signal>u1/cnt1[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_inst/Rnum[9:0]">
+                <Signal>fifo_inst/Rnum[9]</Signal>
+                <Signal>fifo_inst/Rnum[8]</Signal>
+                <Signal>fifo_inst/Rnum[7]</Signal>
+                <Signal>fifo_inst/Rnum[6]</Signal>
+                <Signal>fifo_inst/Rnum[5]</Signal>
+                <Signal>fifo_inst/Rnum[4]</Signal>
+                <Signal>fifo_inst/Rnum[3]</Signal>
+                <Signal>fifo_inst/Rnum[2]</Signal>
+                <Signal>fifo_inst/Rnum[1]</Signal>
+                <Signal>fifo_inst/Rnum[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="fifo_inst/Wnum[9:0]">
+                <Signal>fifo_inst/Wnum[9]</Signal>
+                <Signal>fifo_inst/Wnum[8]</Signal>
+                <Signal>fifo_inst/Wnum[7]</Signal>
+                <Signal>fifo_inst/Wnum[6]</Signal>
+                <Signal>fifo_inst/Wnum[5]</Signal>
+                <Signal>fifo_inst/Wnum[4]</Signal>
+                <Signal>fifo_inst/Wnum[3]</Signal>
+                <Signal>fifo_inst/Wnum[2]</Signal>
+                <Signal>fifo_inst/Wnum[1]</Signal>
+                <Signal>fifo_inst/Wnum[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="wtaddr[9:0]">
+                <Signal>wtaddr[9]</Signal>
+                <Signal>wtaddr[8]</Signal>
+                <Signal>wtaddr[7]</Signal>
+                <Signal>wtaddr[6]</Signal>
+                <Signal>wtaddr[5]</Signal>
+                <Signal>wtaddr[4]</Signal>
+                <Signal>wtaddr[3]</Signal>
+                <Signal>wtaddr[2]</Signal>
+                <Signal>wtaddr[1]</Signal>
+                <Signal>wtaddr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="wtdina[15:0]">
+                <Signal>wtdina[15]</Signal>
+                <Signal>wtdina[14]</Signal>
+                <Signal>wtdina[13]</Signal>
+                <Signal>wtdina[12]</Signal>
+                <Signal>wtdina[11]</Signal>
+                <Signal>wtdina[10]</Signal>
+                <Signal>wtdina[9]</Signal>
+                <Signal>wtdina[8]</Signal>
+                <Signal>wtdina[7]</Signal>
+                <Signal>wtdina[6]</Signal>
+                <Signal>wtdina[5]</Signal>
+                <Signal>wtdina[4]</Signal>
+                <Signal>wtdina[3]</Signal>
+                <Signal>wtdina[2]</Signal>
+                <Signal>wtdina[1]</Signal>
+                <Signal>wtdina[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u1/I_led_brightness[15:0]">
+                <Signal>u1/I_led_brightness[15]</Signal>
+                <Signal>u1/I_led_brightness[14]</Signal>
+                <Signal>u1/I_led_brightness[13]</Signal>
+                <Signal>u1/I_led_brightness[12]</Signal>
+                <Signal>u1/I_led_brightness[11]</Signal>
+                <Signal>u1/I_led_brightness[10]</Signal>
+                <Signal>u1/I_led_brightness[9]</Signal>
+                <Signal>u1/I_led_brightness[8]</Signal>
+                <Signal>u1/I_led_brightness[7]</Signal>
+                <Signal>u1/I_led_brightness[6]</Signal>
+                <Signal>u1/I_led_brightness[5]</Signal>
+                <Signal>u1/I_led_brightness[4]</Signal>
+                <Signal>u1/I_led_brightness[3]</Signal>
+                <Signal>u1/I_led_brightness[2]</Signal>
+                <Signal>u1/I_led_brightness[1]</Signal>
+                <Signal>u1/I_led_brightness[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>led_backlight_inst/de_flag</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Signal>led_backlight_inst/vs_pos</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Bus restorename="led_backlight_inst/cnt_vs_all[13:0]">
+                        <Signal>led_backlight_inst/cnt_vs_all[13]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[12]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[11]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[10]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[9]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[8]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[7]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[6]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[5]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[4]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[3]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[2]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[1]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs_all[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Signal>led_backlight_inst/vs_pos</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4">
+                <SignalList>
+                    <Bus restorename="led_backlight_inst/cnt_vs[13:0]">
+                        <Signal>led_backlight_inst/cnt_vs[13]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[12]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[11]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[10]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[9]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[8]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[7]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[6]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[5]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[4]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[3]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[2]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[1]</Signal>
+                        <Signal>led_backlight_inst/cnt_vs[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="5">
+                <SignalList>
+                    <Signal>u1/rden</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="6">
+                <SignalList>
+                    <Bus restorename="u1/cnt1[30:0]">
+                        <Signal>u1/cnt1[30]</Signal>
+                        <Signal>u1/cnt1[29]</Signal>
+                        <Signal>u1/cnt1[28]</Signal>
+                        <Signal>u1/cnt1[27]</Signal>
+                        <Signal>u1/cnt1[26]</Signal>
+                        <Signal>u1/cnt1[25]</Signal>
+                        <Signal>u1/cnt1[24]</Signal>
+                        <Signal>u1/cnt1[23]</Signal>
+                        <Signal>u1/cnt1[22]</Signal>
+                        <Signal>u1/cnt1[21]</Signal>
+                        <Signal>u1/cnt1[20]</Signal>
+                        <Signal>u1/cnt1[19]</Signal>
+                        <Signal>u1/cnt1[18]</Signal>
+                        <Signal>u1/cnt1[17]</Signal>
+                        <Signal>u1/cnt1[16]</Signal>
+                        <Signal>u1/cnt1[15]</Signal>
+                        <Signal>u1/cnt1[14]</Signal>
+                        <Signal>u1/cnt1[13]</Signal>
+                        <Signal>u1/cnt1[12]</Signal>
+                        <Signal>u1/cnt1[11]</Signal>
+                        <Signal>u1/cnt1[10]</Signal>
+                        <Signal>u1/cnt1[9]</Signal>
+                        <Signal>u1/cnt1[8]</Signal>
+                        <Signal>u1/cnt1[7]</Signal>
+                        <Signal>u1/cnt1[6]</Signal>
+                        <Signal>u1/cnt1[5]</Signal>
+                        <Signal>u1/cnt1[4]</Signal>
+                        <Signal>u1/cnt1[3]</Signal>
+                        <Signal>u1/cnt1[2]</Signal>
+                        <Signal>u1/cnt1[1]</Signal>
+                        <Signal>u1/cnt1[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="5"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0111101111101011</GAO_ID>
+</GAO_CONFIG>
